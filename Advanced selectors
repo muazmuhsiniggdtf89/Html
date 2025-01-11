@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<body >
+    <h1>Welcome To INNOVATORY ACADEMY CLUB'S</h1>
+    <UL>
+        <li id>English Club </li>
+        <li>Sports Club</li>
+        <li>Debate Club</li>
+        <li>Photography Club</li>
+    </UL>
+    <p>School clubs are like mini-universes within the larger world of education, offering students opportunities to explore interests, develop skills, and form lasting friendships.</p>
+    <p>"The strength of the team is each individual member. The strength of each member is the team." – Phil Jackson</p>
+    <a href=""> Join our club's</a>  <br> <a href=""> Get latest notices about clubs</a> <br><a href=""> </a>
+</body>
+</html>
