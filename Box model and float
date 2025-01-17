@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+        #Example1{
+            width: 220px;
+            background-color: darksalmon;
+            padding: 40px;
+            border: 10px;
+            margin: 20px;
+            float: left;
+        }
+        #Example{
+            width: 200px;
+            background-color: rgb(250, 145, 8);
+            padding: 8px;
+            border: 6px  solid;
+            margin:100px 100px ;
+
+        }
+        img#FlowerRight{
+            float: Right;
+        }
+        img#Flowerleft{
+            float: left;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>Box Model</H1>
+    <p id="Example1">Nice and attractive</p>
+    <p id="Example">Dhaka is the capital of Bangladesh</p>
+    <H2>Flower right</H2>
+    <p;"><img id="FlowerRight" src="images__32_-removebg-preview.png" alt="Flower right" width="100px ;" height="100px">
+    <img id="Flowerleft" src="images__32_-removebg-preview.png" alt="Flower right" width="100px ;" height="100px">
+</body>
+</html>
