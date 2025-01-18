@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Water Cycle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header, footer {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        article {
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Water Cycle</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <header>
+                <h2>Understanding the Water Cycle</h2>
+                <p>Posted on January 18, 2025 by Muhsin Muaz</p>
+            </header>
+            
+                <h3>Introduction</h3>
+                <p>The water cycle, also known as the hydrological cycle, describes the continuous movement of water on, above, and below the surface of the Earth.</p>
+           
+           
+                <h3>Key Processes</h3>
+                <ul>
+                    <li><strong>Evaporation:</strong> The sun heats up water in rivers, lakes, and oceans, turning it into water vapor that rises into the air.</li>
+                    <li><strong>Condensation:</strong> As the water vapor rises, it cools and turns back into liquid water droplets, forming clouds.</li>
+                    <li><strong>Precipitation:</strong> When the water droplets in clouds become too heavy, they fall back to Earth as rain, snow, sleet, or hail.</li>
+                    <li><strong>Collection:</strong> The precipitation collects in bodies of water like rivers, lakes, and oceans. It can also seep into the ground, replenishing groundwater supplies.</li>
+                    <li><strong>Transpiration:</strong> Plants absorb water through their roots and release water vapor into the air from their leaves.</li>
+                </ul>
+            
+            
+                <h3>Importance of the Water Cycle</h3>
+                <p>The water cycle is crucial for sustaining life on Earth, regulating climate, and renewing freshwater supplies.</p>
+            
+            <footer>
+                <p >#WaterCycle #Environment #Science</p>
+            </footer>
+        </article>
+    </main>
+    <footer>
+        <p> 2025 Water Cycle Website. <br> All rights reserved.</p>
+    </footer>
+</body>
+</html>
