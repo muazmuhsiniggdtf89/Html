@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+div.fixed{
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    width: 300px;
+    border: 3px  solid rgb(94, 200, 241);
+    opacity: 0.6;
+}
+div.sticky{
+    position: sticky;
+    top: 10px;
+    left: 20px;
+    width: 100px;
+    border: 3px solid black;
+    opacity: 0.1 ;
+}
+h4{
+    position: relative;
+    border: 3px rgb(245, 245, 150);
+    top: 70px;
+    left: 20px;
+    width: 300px;
+    opacity: 0.3;
+}
+</style>
+<body>
+    <H1>Positioning</H1>
+    <div class="fixed">This is fully fixed</div>
+    <div class="sticky">This is sticky</div>
+   <h4>Dream always</h4>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
