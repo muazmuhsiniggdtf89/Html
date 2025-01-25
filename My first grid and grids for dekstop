@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<script src=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+<style>
+    .col{
+        text-align: center;
+        border: 1px solid rgb(12, 11, 10);
+        background : linear-gradient( orange,rgb(213, 213, 252));;
+    }
+</style>
+  
+</head>
+<body>
+    <h1>This is equal GRID</h1>
+    <div class="container">
+    <div class="row">
+        <div style=" background : linear-gradient( orange,rgb(213, 213, 252));; border: 1px solid black;" class="col-md-8 col-lg-12">
+            column 1
+        </div>
+        <div class="col md-4 col-lg-8">
+            column 2 </div>
+            <div style=" background : linear-gradient( orange,rgb(213, 213, 252));; border: 1px solid black;" class="col-md-6 col-lg-4">
+                column 3
+    </div>
+        </div>
+        </div>
+</body>
+</html>
