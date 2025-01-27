@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven Wonders of the World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #0c0000;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #fcf5f5;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Seven Wonders of the World</h1>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td><a href="https://en.wikipedia.org/wiki/Great_Wall_of_China" target="_blank">Great Wall of China</a></td>
+        <td>China</td>
+        <td>A series of fortifications made of various materials, built to protect against invasions.</td>
+    </tr>
+    <tr>
+        <td><a href="https://en.wikipedia.org/wiki/Petra" >Petra</a></td>
+        <td>Jordan</td>
+        <td>An archaeological site famous for its rock-cut architecture and water conduit system.</td>
+    </tr>
+    <tr>
+        <td><a href="https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)">Christ the Redeemer</a></td>
+        <td>Brazil</td>
+        <td>A giant statue of Jesus Christ in Rio de Janeiro, symbolizing peace and welcoming.</td>
+    </tr>
+    <tr>
+        <td><a href="https://en.wikipedia.org/wiki/Machu_Picchu">Machu Picchu</a></td>
+        <td>Peru</td>
+        <td>An ancient Incan city set high in the Andes Mountains, known for its archaeological significance.</td>
+    </tr>
+    <tr>
+        <td><a href="https://en.wikipedia.org/wiki/Chichen_Itza" >Chichen Itza</a></td>
+        <td>Mexico</td>
+        <td>A large pre-Columbian archaeological site built by the Maya civilization, famous for its pyramid.</td>
+    </tr>
+    <tr>
+        <td><a href="https://en.wikipedia.org/wiki/Colosseum" >Roman Colosseum</a></td>
+        <td>Italy</td>
+        <td>A large amphitheater in Rome, known for its ancient gladiatorial contests and public spectacles.</td>
+    </tr>
+    <tr>
+        <td><a href="https://en.wikipedia.org/wiki/Taj_Mahal" >Taj Mahal</a></td>
+        <td>India</td>
+        <td>A white marble mausoleum built in memory of Mumtaz Mahal, known for its stunning architecture.</td>
+    </tr>
+</table>
+
+</body>
+</html>
