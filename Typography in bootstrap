@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+   <h1>Abbreviation</h1> 
+   <p>It is used to mark up an abbreviation and acronomy</p>
+ <p>  <abbr title="codingal">cdgl</abbr> was found in 2020</p>
+ <h1>Blockquote</h1>
+ <p>It is used to present content from another source</p>
+ <blockquote class="blockquote">
+    <p>Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and ...</p>
+    <footer class="blockquote-footer">From Tesla</footer>
+ </blockquote>
+ <h1>Multiple Code Lines</h1>
+ <p>For multiple lines of code,use the pre element</p>
+ <pre>Be
+     the
+     best 
+     whatever
+     you
+     are
+ </pre>
+ <div class="container">
+    <h1>Highlited Text</h1>
+    <p>Use the mark element to <mark>highlight</mark>Text</p>
+    <H1>Code Snippets</H1>
+    <p>The following HTML elements are <code>div</code>,<code>span</code>and <code>section</code></p>
+ </div>
+</body>
+</html>
