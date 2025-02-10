@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background :linear-gradient(#4E65FF , #92EFFD);
+           
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: top right;
+            h1{
+                font-size:50px;
+            }
+            
+        </style>
+</head>
+<body>
+    <H1 style="border: 200px; color: #727266;position:sticky;";">Innovation Academy</H1>
+    <img height="100" width="100" src= "LOGO.webp" ="Logo of Innovation Academy">
+    <h1 style="color: cadetblue;"> About us</h1>
+    <p>**Innovation Academy** is a forward-thinking institution dedicated to fostering creativity, technological advancement, and entrepreneurial spirit. Its mission is to empower learners to become trailblazers in their respective fields by equipping them with the tools, knowledge, and skills needed to navigate the challenges of an ever-evolving world.
+
+       <h4> ### Key Features of Innovation Academy:</h4>
+        
+       <mark>1. **Cutting-Edge Curriculum**:  </mark>  
+           The Academy emphasizes hands-on, project-based learning in areas like technology, engineering, design thinking, and business innovation. It integrates the latest industry trends and tools to ensure learners remain competitive.
+        
+       <mark>2. **Collaborative Environment**: </mark>  
+           Innovation thrives on collaboration. Students, educators, and industry experts work together on real-world challenges, fostering a culture of teamwork and idea exchange.
+        
+       <mark>3. **State-of-the-Art Facilities**:  </mark> 
+           Equipped with modern labs, maker spaces, and digital studios, the Academy provides the perfect setting for creativity and experimentation.
+        
+       <mark> 4. **Focus on Problem Solving**: </mark> 
+           The institution nurtures critical thinking and problem-solving skills, encouraging students to tackle global challenges in sustainability, technology, healthcare, and beyond.
+        
+       <mark>5. **Entrepreneurial Development**:  </mark> 
+           With mentorship programs, startup incubators, and networking opportunities, Innovation Academy supports aspiring entrepreneurs in turning their ideas into successful ventures.
+        
+       <mark> 6. **Global Perspective**: </mark> 
+           By fostering cultural exchange and offering international programs, the Academy ensures its learners are equipped to think globally and act locally.
+        
+        <mark>*Innovation Academy** isn’t just an educational institution; it’s a hub where ideas are born, skills are honed, and futures are shaped. It stands as a testament to the power of human creativity and determination to drive progress in every field</mark>.</p>
+    <img src="Iv front pic.webp" height="300px" alt="Academy picture"><h1>Our School</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aQ-tjdMnHlA?si=HI6JYzsQI_YphrFP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
