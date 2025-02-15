@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+    #mp{
+        font-size:50px;
+        color: aqua;
+        
+    }
+</style>
+<body>
+    <H1 id="myh"></H1>
+    <p id="mp"></p>
+    <script>
+        document.getElementById("mp").innerHTML=" Never Give Up";
+        document.write("Jobs Steve")
+        
+    </script>
+    <h1>Jabascript Variables</h1>
+    <P>Sum of two number</P>
+    <p id="result"></p>
+    <script>
+        var num1 = 10;
+        var num2 = 10;
+        var sum = num1 + num2
+        document.getElementById("result").innerHTML="The total sum is = " + sum
+        </script>
+</body>
+</html>
