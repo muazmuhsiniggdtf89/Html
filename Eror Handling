@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript Eror Handling</h1>
+    <p>This example demonstrates ho to use<b>catch</b> display an eror</p>
+     <p id="eror_messege"></p>
+     <script>
+        try{
+            var z=6;
+            var x=z+5
+            document.write(y)
+        }
+        catch(err){
+            document.getElementById("eror_messege").innerHTML= err.message;
+        }
+        document.write("hello")
+     </script>
+</body>
+</html>
