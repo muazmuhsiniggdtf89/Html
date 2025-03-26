@@ -21,4 +21,5 @@ if(email===''){
     message ='Login successful!'; 
     msgBox.style.color = 'green';
 }
+    msgBox.innerText = message;
 }
