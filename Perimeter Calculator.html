@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var choice = prompt("Welcome to Area Calculator.\n Please Enter your Choice.\n1.Area of Rectangle.\n2.Area of Triangle.\n3.Area of Circle.\n4.Area of Parallelogram"
+        );
+
+        if(choice=='1'){
+            var side = prompt('Enter the value of a side')
+            var result = Number(side)* 4
+            alert('The Area is' + result)
+        }if(choice=='2'){
+            var h = prompt('Enter the height')
+            var b = prompt('Enter the base')
+            var result = 2*(Number(h)+ Number(b))
+            alert('The Area is' + result)
+
+        }if(choice=='3'){
+            var r = prompt('Enter the radius')
+            var result = 2*3.14*Number(r)
+            alert('The Area is' + result)
+        }if(choice=='4'){
+            var h = prompt('Enter the height')
+            var cb = prompt('Enter the  correspondin base')
+            var result = 2*(Number(h)+ Number(cb))
+            alert('The Area is' + result)
+         }if(choice=='5'){
+            var fside = prompt('Enter the first side')
+            var b = prompt('Enter the base')
+            var tside = prompt('Enter the third side')
+            var foside =prompt('Enter the fourth side')
+            var result = Number(fside)+ Number(b)+Number(tside)+Number(foside)
+            alert('The Area is' + result)
+
+        }if(choice=='6'){
+            var h = prompt('Enter the height')
+            var b = prompt('Enter the base')
+            var hy = prompt('Enter the big side')
+            var result = Number(h)+ Number(b)+Number(hy)+
+            alert('The Area is' + result)
+
+        }
+    </script>
+</body>
+</html>
