@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #cddff0;
+            padding: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h3 {
+            color: #070101;
+        }
+
+        form {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            border: 2px solid #007BFF;
+            border-radius: 5px;
+            width: 300px;
+            margin-right: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0079fa;
+        }
+
+        ul {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        li {
+            background-color: white;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ecd8d8;
+            border-radius: 5px;
+            align-items: center;
+        }
+
+        li button {
+            background-color: #e74454;
+            border-radius: 5px;
+            color: rgb(255, 247, 247);
+            cursor: pointer;
+            padding: 5px 10px;
+        }
+
+        li button:hover {
+            background-color: #f34b5f;
+        }
+    </style>
+</head>
+<body>
+    <h3>Add your To Do List here</h3>
+    <form id="myForm">
+        <input id="myInput" type="text">
+        <button onclick="">Add</button>
+    </form>
+
+    <h3>To Do List</h3>
+    <ul id="myItem"></ul>
+    <script>
+        var myForm = document.getElementById("myForm");
+        var myInput = document.getElementById("myInput");
+        var myItem = document.getElementById("myItem");
+        
+        myForm.addEventListener("submit",
+        function(event){
+            event.preventDefault()
+            createItem(myInput.value)
+        })
+        function createItem(inputItems){ 
+var items = `<li>${inputItems} 
+<button onclick="deleteElement(this)">Delete</button> 
+</li> `
+     myItem.insertAdjacentHTML ("beforeend", items) 
+     myInput.value = ""
+     myInput.focus() 
+}
+     function deleteElement(ElementToDelete){
+        ElementToDelete.parentElement.remove()
+     }        
+    </script>
+</body>
+</html>
