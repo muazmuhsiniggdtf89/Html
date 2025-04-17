@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Counter App</title>
+  <style>
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient( #428eda, #f8f8f8);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      background-color: white;
+      padding: 40px 50px;
+      border-radius: 20px;
+      text-align: center;
+      width: 300px;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      font-size: 32px;
+      color: #333;
+    }
+
+    #value-display {
+      font-size: 60px;
+      font-weight: bold;
+      color: #090a0a;
+      margin-bottom: 30px;
+    }
+
+    button {
+      padding: 12px 20px;
+      margin: 0 8px;
+      font-size: 16px;
+      border-radius: 10px;
+      color: rgb(255, 255, 255);
+    }
+
+    #button-increment {
+      background-color: #48bb78;
+    }
+
+    #button-decrement {
+      background-color: #f56565;
+    }
+
+    #button-reset {
+      background-color: #4299e1;
+    }
+
+    
+  </style>
+</head>
+<body>
+
+  <h1>Counter App</h1>
+  <div id="value-display">0</div>
+
+  <button id="button-increment">Increase</button>
+  <button id="button-decrement">Decrease</button>
+  <button id="button-reset">Reset</button>
+
+  <script>
+
+    var value = 0;
+
+
+    var button_increment = document.getElementById('button-increment');
+    var button_decrement = document.getElementById('button-decrement');
+    var button_reset = document.getElementById('button-reset');
+    var display = document.getElementById('value-display');
+
+    button_increment.onclick = function () {
+      value++;
+      display.innerText = value;
+    };
+
+    button_decrement.onclick = function () {
+      value--;
+      display.innerText = value;
+    };
+
+    button_reset.onclick = function () {
+      value = 0;
+      display.innerText = value;
+    };
+  </script>
+
+</body>
+</html>
