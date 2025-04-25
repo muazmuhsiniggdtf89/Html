@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My favourite places</h1>
+
+    <div class="carousel-container"></div>
+
+    <div><img class="myslides" src="https://images.pexels.com/photos/2724664/pexels-photo-2724664.jpeg?auto=compress&cs=tinysrgb&w=400" height="500" width="500" alt="Slide 1"></div>
+    <div><img class="myslides" src="https://images.pexels.com/photos/14456690/pexels-photo-14456690.jpeg?auto=compress&cs=tinysrgb&w=400" height="500" width="500" alt="Slide 2"></div>
+    <div><img class="myslides" src="https://images.pexels.com/photos/28821822/pexels-photo-28821822/free-photo-of-scenic-train-journey-through-zermatt-switzerland.jpeg?auto=compress&cs=tinysrgb&w=300" height="500" width="500" alt="Slide 3"></div>
+    <div><img class="myslides" src="https://images.pexels.com/photos/2619003/pexels-photo-2619003.jpeg?auto=compress&cs=tinysrgb&w=300" height="500" width="500" alt="Slide 4"></div>
+
+    <script>
+        var index = 0;
+        function carousel(){
+            var i;
+            var x = document.getElementsByClassName("myslides");
+
+            for(i = 0; i < x.length; i++){``
+             x[i].style.display="none";
+            }
+            index++;
+            if (index > x.length){
+                index = 1;
+            }
+            x[index - 1].style.display = "block";
+            setTimeout(carousel,2000);}
+
+            carousel();
+        
+    </script>
+</body>
+</html>
