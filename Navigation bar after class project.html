@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stylish Navigation</title>
+    <style>
+        body {
+           background-image: url('https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-01b4-61f7-935a-b968c629e681/raw?se=2025-04-26T16%3A02%3A46Z&sp=r&sv=2024-08-04&sr=b&scid=fd907414-31d9-54eb-8fe0-79caf7251342&skoid=a47cd303-16a2-427e-8efb-2ce406116005&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-26T14%3A44%3A08Z&ske=2025-04-27T14%3A44%3A08Z&sks=b&skv=2024-08-04&sig=sWW5jENGVPFL%2BHb9MpFIv%2B6yWUjO2rrs53X2l9DhSgY%3D');
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #020a0a;
+        }
+
+        .topnav {
+            display: flex;
+            flex-direction:column;
+            background-image: linear-gradient(to right, #a6c1ee, #1e3c72);
+            padding: 20px;
+            width: 220px;
+            height: 100vh;
+            box-shadow: 3px 0 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .topnav a {
+            font-weight: bold;
+            color: #0e0d0d;
+            text-decoration:none;
+            font-size: 18px;
+            padding: 12px 18px;
+            border-radius: 12px;
+            margin: 6px 0;
+            transition: background-color 0.3s ease, 
+        }
+
+        .topnav a:hover {
+            background-color: #6ddefd;
+            color: #0e0d0d;
+            transform: translateX(7px);
+        }
+
+        .topnav a.active {
+            background-color: #6ddefd;
+            font-weight: bold;
+            color: #050404;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="#">Price</a>
+        <a class="active" href="#">Menu</a>
+        <a href="#">Your Deal</a>
+        <a href="#">Cart</a>
+        <a href="#">Package</a>
+        <a href="#">Location</a>
+    </div>
+</body>
+</html>
