@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #f8f9fa, #e3f2fd);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 30px 0;
+            color: #333;
+            font-size: 2.5rem;
+        }
+
+    
+
+        .myslides {
+            display: none;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .carousel-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>My favourite places</h1>
+
+    <div class="carousel-container"></div>
+
+    <div><img class="myslides" src="https://images.pexels.com/photos/2724664/pexels-photo-2724664.jpeg?auto=compress&cs=tinysrgb&w=400" height="500" width="500" alt="Slide 1"></div>
+    <div><img class="myslides" src="https://images.pexels.com/photos/14456690/pexels-photo-14456690.jpeg?auto=compress&cs=tinysrgb&w=400" height="500" width="500" alt="Slide 2"></div>
+    <div><img class="myslides" src="https://images.pexels.com/photos/28821822/pexels-photo-28821822/free-photo-of-scenic-train-journey-through-zermatt-switzerland.jpeg?auto=compress&cs=tinysrgb&w=300" height="500" width="500" alt="Slide 3"></div>
+    <div><img class="myslides" src="https://images.pexels.com/photos/2619003/pexels-photo-2619003.jpeg?auto=compress&cs=tinysrgb&w=300" height="500" width="500" alt="Slide 4"></div>
+    <div><img class="myslides" src="https://images.pexels.com/photos/1266810/pexels-photo-1266810.jpeg?auto=compress&cs=tinysrgb&w=400" height="500" width="500" alt="Slide 5"></div>
+    <div><img class="myslides" src="https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&w=400" height="500" width="500" alt="Slide 6"></div>
+    <div><img class="myslides" src="https://images.pexels.com/photos/2240000/pexels-photo-2240000.jpeg?auto=compress&cs=tinysrgb&w=400" height="500" width="500" alt="Slide 7"></div>
+    <div><img class="myslides" src="https://images.pexels.com/photos/462162/pexels-photo-462162.jpeg?auto=compress&cs=tinysrgb&w=400" height="500" width="500" alt="Slide 8"></div>
+    <div><img class="myslides" src="https://images.pexels.com/photos/459203/pexels-photo-459203.jpeg?auto=compress&cs=tinysrgb&w=400" height="500" width="500" alt="Slide 9"></div>
+    <div><img class="myslides" src="https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&w=400" height="500" width="500" alt="Slide 5"></div>
+    <div><img class="myslides" src="https://images.pexels.com/photos/1766838/pexels-photo-1766838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="500" width="500" alt="Slide 11"></div>
+    <div><img class="myslides" src="https://images.pexels.com/photos/4064432/pexels-photo-4064432.jpeg?auto=compress&cs=tinysrgb&w=400" height="500" width="500" alt="Slide 12"></div>
+    <div><img class="myslides" src="https://images.pexels.com/photos/1064162/pexels-photo-1064162.jpeg?auto=compress&cs=tinysrgb&w=400" height="500" width="500" alt="Slide 13"></div>
+    
+
+    <script>
+        var index = 0;
+        carousel();
+        function carousel(){
+            var i;
+            var x = document.getElementsByClassName("myslides");
+
+            for(i = 0; i < x.length; i++){``
+             x[i].style.display="none";
+            }
+            index++;
+            if (index > x.length){
+                index = 1;
+            }
+            x[index - 1].style.display = "block";
+            setTimeout(carousel,3000);}
+
+            carousel();
+        
+    </script>
+</body>
+</html>
